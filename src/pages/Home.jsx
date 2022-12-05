@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addTodo, deleteTodo, changeTodo } from "../redux/modules/todos";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import Form from "../components/Form";
+import Form from "../components/form/Form";
 import Main from "../components/Main";
 import styled from "styled-components";
 

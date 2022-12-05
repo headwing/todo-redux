@@ -1,19 +1,7 @@
 import React from "react";
 import "./Layout.css";
 import { useNavigate } from "react-router-dom";
-
-function Header() {
-  const navigate = useNavigate();
-  return (
-    <header
-      onClick={() => {
-        navigate("/");
-      }}
-    >
-      Todo List💜
-    </header>
-  );
-}
+import Header from "../components/header/Header";
 
 function Layout({ children }) {
   return (
